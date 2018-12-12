@@ -24,7 +24,7 @@ gitee地址:https://gitee.com/Nconsolate/news
          mongodb://47.101.199.141:27017/mynews  
         npm start 运行
         访问 http://127.0.0.1:3003/news/list
-* 方法2： 连接本地mongoDB
+>* 方法2： 连接本地mongoDB
     首先本地安装mongoDB   
     本地建立mynews集合（其他名也行，连接mongodb做对应处理）       并运行 
     修改源码中的routes>news>news.js下的mongoose.connect
